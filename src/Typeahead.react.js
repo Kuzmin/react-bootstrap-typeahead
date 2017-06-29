@@ -162,7 +162,7 @@ const Typeahead = React.createClass({
 
     return (
       <div
-        className="bootstrap-typeahead open"
+        className="bootstrap-typeahead show"
         style={{position: 'relative'}}>
         {this._renderInput(filteredOptions)}
         {this._renderMenu(filteredOptions)}
